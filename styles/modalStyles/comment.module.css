@@ -1,0 +1,18 @@
+.co_context p {
+    margin: 0px;
+    font-size: 14px;
+    color: #262626;
+}
+.comment {
+    display: flex;
+    align-items: center;
+}
+.userName {
+    color: rgba(var(--f75, 38, 38, 38), 1);
+    font-size: 14px;
+}
+.userInfo {
+    display: flex;
+    align-items: center;
+    padding: 14px 4px 14px 0px;
+}

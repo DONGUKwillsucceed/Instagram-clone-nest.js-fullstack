@@ -1,0 +1,111 @@
+.mainComponent{
+    width: 348px;
+    height: 360px;
+    margin-left: 22px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.loginComponent{
+    width: 348px;
+    text-align: center;
+    border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 12px;
+    background-color: rgba(var(--d87, 255, 255, 255), 1);
+}
+@font-face {
+    font-family: "insta_font";
+    src: url("../../public/billabong.otf");
+}
+
+.logoFont{
+    font-family: "insta_font";
+    font-size: 51px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.loginElement {
+    padding-top: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginElement div{
+    height:43px;
+}
+
+.loginInput{
+    padding: 9px 0 7px 8px;
+    border-radius: 3%;
+    width: 266px;
+    height:36px;
+}
+
+.loginBtn{
+    width: 266px;
+    height: 30px;
+    color: rgba(var(--d87, 255, 255, 255), 1);
+    background-color: #0095f6;
+    border:none;
+    border-radius: 3%;
+    padding-top: 7px;
+    padding-bottom:7px;
+    margin-top: 7px;
+}
+
+.crossBlock {
+    display: flex;
+    width: 276px;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+.crossBlock div {
+    height: 0px;
+    width: 103px;
+    border-top: 0.5px solid #dbdbdb;
+}
+
+.crossBlock p {
+    color: #8e8e8e;
+}
+
+.facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook p{
+    margin-left:8px;
+    color: #385185;
+}
+
+.isForget {
+    color: rgba(var(--fe0, 0, 55, 107), 1);
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.signupComponent {
+    display : flex;
+    justify-content: center;
+    border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.anchorSignup {
+    color: rgba(var(--d69, 0, 149, 246), 1);
+    text-decoration-line: none;
+}
+
+.downloadComponent div {
+    margin-top: 14px;
+    margin-bottom: 14px;
+
+}

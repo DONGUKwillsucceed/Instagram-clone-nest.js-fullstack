@@ -1,0 +1,20 @@
+
+
+.storyBoard {
+    border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+    padding: 16px 0;
+    width: 614px;
+    height: 117px;
+    margin-bottom: 24px;
+}
+
+.story {
+    display: inline-block;
+    text-align: center;
+    margin-left: 16px;
+}
+
+.storyName {
+    margin: 0;
+    font-size: 11px;
+}

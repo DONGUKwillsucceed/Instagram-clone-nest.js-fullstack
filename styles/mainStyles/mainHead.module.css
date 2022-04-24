@@ -1,0 +1,41 @@
+.Header {
+    background-color: rgba(var(--d87, 255, 255, 255), 1);
+    border-bottom: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+    top: 0px;
+    width: 100vw;
+}
+.headerBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 935px;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Logo {
+    flex: 1;
+}
+
+.Search{
+    flex: 1;
+    
+}
+
+.headerNav{
+    flex: 1;
+}
+
+.Search input {
+    background: rgba(var(--bb2, 239, 239, 239), 1);
+    border: none;
+    font-size: 16px;
+    padding: 0 16px;
+    width: 236px;
+    height: 36px;
+    border-radius: 8px;
+}
+.headerNav li {
+    padding-left: 24px;
+}

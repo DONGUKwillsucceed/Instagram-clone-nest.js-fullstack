@@ -1,0 +1,84 @@
+.mainComponent {
+    display: flex;
+    margin-top:70px;
+    flex-direction: column;
+    width: 293px;
+    position: fixed;
+    right: calc((100vw - 935px) / 2);
+}
+.spaceNI{
+    margin-left:12px;
+}
+.mainComponent div{
+    margin-bottom:10px;
+}
+.accountCompo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.accountInfo {
+    display: flex;
+    align-items: center;
+}
+.nameID p {
+    margin: 0;
+}
+.recommendationForMe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.recommendationForMe p {
+    color: #8e8e8e;
+    font-size: 14px;
+}
+#viewAll {
+    color: #262626;
+    font-size: 12px;
+}
+.recommendedPeople {
+    display: flex;
+    justify-content: space-between;
+}
+.peopleInfo {
+    display: flex;
+    justify-content: space-between;
+}
+.peopleInfo img {
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+.rcoment {
+    color: rgba(var(--f52, 142, 142, 142), 1);
+    font-size: 12px;
+}
+.coment {
+    color: rgba(var(--f52, 142, 142, 142), 1);
+    font-size: 14px;
+}
+.buttonP {
+    color: rgba(var(--d69, 0, 149, 246), 1);
+    font-size: 12px;
+}
+.licenseCompo {
+    font-size: 12px;
+    color: #c7c7c7;
+}
+.licenseCompo ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 16px 0px 16px;
+}
+.licenseCompo li {
+    list-style: none;
+}
+.licenseCompo li::after {
+    content: ".";
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.licenseCompo li:last-child::after {
+    content: none;
+}
